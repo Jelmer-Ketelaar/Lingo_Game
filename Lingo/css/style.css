@@ -1,0 +1,43 @@
+body {
+	background-color: orange;
+  font-family: 'Quicksand', sans-serif; 
+}
+
+
+#container > div > div {
+  display: inline-block;
+  margin-left: 5px;
+  border: solid black;
+  background-color: white;
+
+	border-radius: 5px;
+  padding: 30px;
+  width: 35px; 
+  height: 35px;
+  font-size: 40px;
+}
+
+#container {
+  text-align: center;
+}
+
+#container > div > div > p {
+	position: absolute;
+}
+
+#title {
+	text-align: center;
+	font-size: 35px;
+}
+
+#right {
+  text-align: center;
+  padding: 0px 0px 10px 0px;
+  font-size: 20px;
+}
+
+.wrong {
+  text-align: center;
+  padding: 0px 0px 10px 0px; 
+  font-size: 20px;
+}
